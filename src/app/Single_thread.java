@@ -125,7 +125,7 @@ class Single_thread{
             transaction="decrease";
         }
             if(block.size()==0)
-        block.add(new Blockchain("Genecis_hash",cash,transaction));
+        block.add(new Blockchain("Genesis_hash",cash,transaction));
             else
         block.add(new Blockchain(block.get(block.size()-1).hash, cash,transaction));
         System.out.println("マイニング作業"+(i+1)+"回目");
