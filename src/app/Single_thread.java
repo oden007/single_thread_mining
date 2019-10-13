@@ -14,7 +14,7 @@ class Blockchain{
     int cash_data;//トランザクションデータ
     String tarnsaction;
     String hash;//自身のハッシュ値
-    int difficulty=;
+    int difficulty=6;
     //difficultyがマイニングの難易度に直結するのでマイニング時間に応じて変更させる(デフォルトは6)
     public Blockchain(String previous_hash,int cash_data,String transaction){
         this.timestamp=new Date();
